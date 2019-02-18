@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.rubyforge_project = '[none]'
   s.required_ruby_version = '>= 2.0.0'
 
-  s.add_dependency 'activerecord', '>= 4.2', '< 5.3'
-  s.add_dependency 'activemodel', '>= 4.2', '< 5.3'
+  s.add_dependency 'activerecord', '6.0.0.beta1'
+  s.add_dependency 'activemodel', '6.0.0.beta1'
   s.add_dependency 'request_store', '~> 1.0'
 
   s.add_development_dependency 'appraisal'
@@ -28,5 +28,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'pry'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rdoc'
-  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'sqlite3', '~> 1.3.6'
 end
